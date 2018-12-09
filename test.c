@@ -13,26 +13,29 @@ int main(){
 }
 
 void my_strtok1(){
-	char input[]="i am a boy";
+	char str[]="i am a boy";
 	int i;
-	for(i=0; input[i]!='\0'; i++){
-		if(input[i] == ' ')
+	for(i=0; str[i]!='\0'; i++){
+		if(str[i] == ' ')
 			printf("\n");
 		else
-			printf("%c",input[i]);
+			printf("%c",str[i]);
 	}
 }
 
 void my_strtok2(){
-	char input[100];
+	char str[50];
 	int i;
-	gets(input);
-	for(i=0; input[i]!='\0'; i++){
-		if(input[i] == ' ')
+	gets(str);
+	for(i=0; str[i]!='\0'; i++){
+		if(str[i] == ' ')
 			printf("\n");
 		else
-			printf("%c",input[i]);
+			printf("%c",str[i]);
 	}
 }
+
+
+
 
 
